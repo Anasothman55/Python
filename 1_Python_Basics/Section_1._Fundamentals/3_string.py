@@ -41,13 +41,13 @@ console.print(greeting)
 
 
 
-str = "Python String"
-console.print(str[0]) # P
-console.print(str[1]) # y
+str1 = "Python String"
+console.print(str1[0]) # P
+console.print(str1[1]) # y
 
-str = "Python String"
-console.print(str[-1])  # g
-console.print(str[-2])  # n
+str2 = "Python String"
+console.print(str2[-1])  # g
+console.print(str2[-2])  # n
 
 
 indexing = '''
@@ -59,9 +59,19 @@ indexing = '''
 '''
 console.print(indexing)
 
-str = "Python String"
-str_len = len(str)
+str3 = "Python String"
+str_len = len(str3)
 console.print(str_len)
+
+
+
+
+#? Slicing strings
+
+
+str4 = "Python String"
+console.print(str4[0:4])
+
 
 
 
