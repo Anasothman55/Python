@@ -155,7 +155,6 @@ text2 = "my name anas"
 print(text2.center(24,"-"))
 
 
-
 # count(substring, start index, end index) 
 c= "this text I use it for count method it count a number of letter in string like the string have 10:a"
 console.print(c.lower().count('a')) # => 3
