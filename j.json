@@ -1,0 +1,26 @@
+[
+  {
+    "name":"anas",
+    "username":"anasAS",
+    "email":"anas@gmail.com",
+    "phone": "1234567890",
+    "address": {
+      "street": "street1",
+      "city": "city1",
+      "state": "state1",
+      "zip": "12345"
+      }
+  },
+  {
+    "name":"anas",
+    "username":"anasAS",
+    "email":"anas@gmail.com",
+    "phone": "1234567890",
+    "address": {
+      "street": "street1",
+      "city": "city1",
+      "state": "state1",
+      "zip": "12345"
+      }
+  }
+]
