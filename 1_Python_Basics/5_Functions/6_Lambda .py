@@ -83,4 +83,27 @@ print(sume)
 
 
 
+a = [1, 2, 3, 4, 5, 6]
+c = list(map(lambda x: x * 2, filter(lambda x: x % 2 == 0, a)))
+print(c)
+
+
+
+
+
+
+import functools
+# importing operator for operator functions
+import operator
+# initializing list
+a = [1, 3, 5, 6, 2]
+# using reduce with add to compute sum of list
+print(functools.reduce(operator.add, a))
+# using reduce with mul to compute product
+print(functools.reduce(operator.mul, a))
+# using reduce with add to concatenate string
+print(functools.reduce(operator.add, ["geeks", "for", "geeks"]))
+
+
+
 
